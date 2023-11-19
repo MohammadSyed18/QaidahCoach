@@ -14,3 +14,7 @@ npm run build
 ```
 
 these are limited instructional examples. they don't cover every contextual recitation difference or replace practice with a qualified teacher.
+
+## Implementation details
+
+`qaidahcoach.progress` provides posterior mastery estimates, uncertainty intervals, and balanced follow-up practice plans. The planner prioritizes weaker rules while avoiding immediate repetition.
