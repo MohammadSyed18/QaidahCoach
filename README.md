@@ -1,7 +1,16 @@
-# QaidahCoach
+# qaidahcoach
 
-An educational practice toolkit for foundational Quranic Arabic reading concepts. Python generates deterministic mixed sessions, checks answers, explains rules, and calculates per-rule mastery. TypeScript manages spaced review, daily accuracy, streaks, due load, and difficult-item detection.
+practice tools for foundational Arabic reading
 
-Run `python3.12 -m unittest discover -s tests -v`, `python3.12 -m qaidahcoach.cli madd --seed 7`, `npm install`, `npm test`, and `npm run build`.
+Python: mixed sessions, answer checking, rule explanations, mastery
+TypeScript: spaced review, daily accuracy, streaks, difficult items
 
-The examples are limited instructional samples and may not cover contextual recitation differences. This application is not a substitute for learning with a qualified teacher.
+```sh
+python3.12 -m unittest discover -s tests -v
+python3.12 -m qaidahcoach.cli madd --seed 7
+npm install
+npm test
+npm run build
+```
+
+these are limited instructional examples. they don't cover every contextual recitation difference or replace practice with a qualified teacher.
