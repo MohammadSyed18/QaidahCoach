@@ -1,8 +1,9 @@
-# QaidahCoach
+# qaidahcoach
 
-Practice tools for foundational Quranic Arabic reading.
+practice tools for foundational Arabic reading
 
-The Python side builds mixed exercise sessions, checks answers, explains rules, and tracks mastery by rule. TypeScript handles spaced review and summaries of accuracy, streaks, and difficult items.
+Python: mixed sessions, answer checking, rule explanations, mastery
+TypeScript: spaced review, daily accuracy, streaks, difficult items
 
 ```sh
 python3.12 -m unittest discover -s tests -v
@@ -12,4 +13,4 @@ npm test
 npm run build
 ```
 
-These are limited instructional examples. They don't cover every contextual recitation difference or replace practice with a qualified teacher.
+these are limited instructional examples. they don't cover every contextual recitation difference or replace practice with a qualified teacher.
